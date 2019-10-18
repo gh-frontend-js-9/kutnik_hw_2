@@ -119,3 +119,63 @@ nav li{
     font-weight: lighter;
     color: rgb(54, 149, 255);
 }
+.section__three{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(241, 248, 255);
+    height: 1140px;
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.wrapper h2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px ;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(54, 149, 255);
+}
+.wrapper li{
+    list-style-type: none;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper li + li{
+    margin-left: 28px;
+}
+.icon{
+    width: 140px;
+    height: 140px;
+    border: 2px solid silver;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper ul h3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 149, 255);
+}
+.wrapper ul span{
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+.marg{
+    margin-top: 80px;
+}
