@@ -107,6 +107,7 @@ nav li{
     padding-top: 90px;
 }
 .section__two{
+    font-family: 'Lato', sans-serif;
     text-align: center;
     height: 400px;
     font-size: 16px;
@@ -169,13 +170,40 @@ nav li{
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: rgb(54, 149, 255);
 }
 .wrapper ul span{
     text-align: center;
     font-size: 16px;
     line-height: 30px;
 }
+.wrapper a{
+    text-decoration: none;
+    color: rgb(54, 149, 255);
+}
 .marg{
     margin-top: 80px;
+}
+.section__four{
+    font-family: 'Lato', sans-serif;
+    height: 1000px;
+    width: 1170px;
+    margin: 0 auto;
+}
+.section__four ul{
+    display: flex;
+    list-style-type: none;
+}
+.section__four h2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px ;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(54, 149, 255);
+}
+.section__four li + li{
+    margin-left: 30px;
+}
+.lanestWorks_marg{
+    margin-top: 50px;
 }
