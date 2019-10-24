@@ -156,14 +156,50 @@ nav li{
     margin-left: 28px;
 }
 .icon{
-    width: 140px;
-    height: 140px;
-    border: 2px solid silver;
-    border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.phone{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/phone.png);
+}
+.displey{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/displey.png);
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+.list{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/list.png);
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+.produkty{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/produkt.png);
+    background-repeat: no-repeat;
+    background-position:center;  
+}
+.ux{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/ux.png);
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+.animation{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/animatio.png);
+    background-repeat: no-repeat;
+    background-position:center; 
 }
 .wrapper ul h3{
     margin-top: 60px;
